@@ -8,7 +8,13 @@ A view showing the details for a landmark.
 import SwiftUI
 
 struct LandmarkDetail: View {
+    @EnvironmentObject var userData: UserData
     var landmark: Landmark
+    
+    // You’ll use landmarkIndex when accessing or updating the landmark’s favorite status, so that you’re always accessing the correct version of that data.
+    var landmarkIndex: Int {
+        return userData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
 
     var body: some View {
         VStack {

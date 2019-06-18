@@ -13,7 +13,7 @@ final class UserData: BindableObject {
     // PassthroughSubject is a simple publisher from the Combine framework that immediately passes any values to its subscribers. SwiftUI subscribes to your object through this publisher, and updates any views that need refreshing when the data changes.
     let didChange = PassthroughSubject<UserData, Never>()
     
-    var foritesOnly = false {
+    var showForitesOnly = false {
         didSet { didChange.send(self) }
     }
     var landmarks = landmarkData {
