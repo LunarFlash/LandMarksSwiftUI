@@ -3,6 +3,7 @@ See LICENSE folder for this sample’s licensing information.
 
 Abstract:
 The application delegate.
+ https://developer.apple.com/tutorials/swiftui/handling-user-input
 */
 
 import UIKit
