@@ -58,7 +58,7 @@ struct LandmarkDetail: View {
 #if DEBUG
 struct LandmarkDetail_Previews: PreviewProvider {
     static var previews: some View {
-        LandmarkDetail(landmark: landmarkData[0])
+        LandmarkDetail(landmark: UserData().landmarks.first!).environmentObject(UserData())
     }
 }
 #endif
