@@ -12,6 +12,7 @@
 		9D45C58B27B8BA5A005FB1D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D45C58A27B8BA5A005FB1D6 /* Assets.xcassets */; };
 		9D45C58E27B8BA5A005FB1D6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D45C58D27B8BA5A005FB1D6 /* Preview Assets.xcassets */; };
 		9D45C59527B8CCD5005FB1D6 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D45C59427B8CCD5005FB1D6 /* CircleImage.swift */; };
+		9D45C59727B8D2E1005FB1D6 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D45C59627B8D2E1005FB1D6 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		9D45C58A27B8BA5A005FB1D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9D45C58D27B8BA5A005FB1D6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D45C59427B8CCD5005FB1D6 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		9D45C59627B8D2E1005FB1D6 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 			children = (
 				9D45C58627B8BA59005FB1D6 /* LandmarksApp.swift */,
 				9D45C58827B8BA59005FB1D6 /* ContentView.swift */,
+				9D45C59427B8CCD5005FB1D6 /* CircleImage.swift */,
 				9D45C58A27B8BA5A005FB1D6 /* Assets.xcassets */,
 				9D45C58C27B8BA5A005FB1D6 /* Preview Content */,
-				9D45C59427B8CCD5005FB1D6 /* CircleImage.swift */,
+				9D45C59627B8D2E1005FB1D6 /* MapView.swift */,
 			);
 			path = Landmarks;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D45C58927B8BA59005FB1D6 /* ContentView.swift in Sources */,
+				9D45C59727B8D2E1005FB1D6 /* MapView.swift in Sources */,
 				9D45C58727B8BA59005FB1D6 /* LandmarksApp.swift in Sources */,
 				9D45C59527B8CCD5005FB1D6 /* CircleImage.swift in Sources */,
 			);
