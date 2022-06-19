@@ -27,6 +27,7 @@
 		9D5A4BC427FA421F00070B38 /* Hike.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D5A4BC327FA421F00070B38 /* Hike.swift */; };
 		9D8062C027EFFD190040511D /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8062BF27EFFD190040511D /* HexagonParameters.swift */; };
 		9D8062C227F159B60040511D /* BadgeBackground.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D8062C127F159B60040511D /* BadgeBackground.swift */; };
+		DEC06AED285F8F65009A4AEF /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = DEC06AEC285F8F65009A4AEF /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		9D5A4BC327FA421F00070B38 /* Hike.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hike.swift; sourceTree = "<group>"; };
 		9D8062BF27EFFD190040511D /* HexagonParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		9D8062C127F159B60040511D /* BadgeBackground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeBackground.swift; sourceTree = "<group>"; };
+		DEC06AEC285F8F65009A4AEF /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		9D45C57A27B8BA59005FB1D6 = {
 			isa = PBXGroup;
 			children = (
+				DEC06AEC285F8F65009A4AEF /* README.md */,
 				9D45C58527B8BA59005FB1D6 /* Landmarks */,
 				9D45C58427B8BA59005FB1D6 /* Products */,
 			);
@@ -223,6 +226,7 @@
 			files = (
 				9D5A4BC227FA412400070B38 /* hikeData.json in Resources */,
 				9D45C58E27B8BA5A005FB1D6 /* Preview Assets.xcassets in Resources */,
+				DEC06AED285F8F65009A4AEF /* README.md in Resources */,
 				9D45C58B27B8BA5A005FB1D6 /* Assets.xcassets in Resources */,
 				9D45C59927B962F7005FB1D6 /* landmarkData.json in Resources */,
 			);
